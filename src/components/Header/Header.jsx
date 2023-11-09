@@ -9,7 +9,7 @@ const Header = () => {
     <MainHeader>
       <Logo />
       <Navigation  />
-      <Button name = "Download CV" link="../../../assets/CV_Vladyslav_Simak_Fullstack.pdf" download />
+      <Button name = "Download CV" link="https://drive.google.com/file/d/1lGhNoAITx_fIuMju3vPiFf-_ZnE63zrZ/view?usp=drive_link" />
     </MainHeader>
   );
 };

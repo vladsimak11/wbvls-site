@@ -1,5 +1,6 @@
 import { AboutBlock, AboutPicture, AboutInfo, AboutText, AboutSpan } from './About.styled';
 import { Section, Header } from '../App.styled';
+import Button from '../Button/Button';
 import AboutImgX1 from '../../images/about/about_dd-1x.jpg';
 import AboutImgX2 from '../../images/about/about_dd-2x.jpg';
 
@@ -42,6 +43,8 @@ const About = () => {
           <AboutText>
             <AboutSpan>Thank you for your time and attention!</AboutSpan>
           </AboutText>
+
+          <Button name="Certificate full stack developer" link="https://drive.google.com/file/d/1VPS_BAn2dMrqSxBjQZ74p5z83aDMUug0/view?usp=drive_link" primary diploma/>
         </AboutInfo>
       </AboutBlock>
     </Section>

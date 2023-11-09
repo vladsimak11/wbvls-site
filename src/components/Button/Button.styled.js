@@ -14,7 +14,7 @@ export const LinkContact = styled(Link)`
   justify-content: center;
   align-items: center;
   gap: 8px; 
-  width: 165px;
+  width: ${props => props.diploma ? "auto" : "165px"};
   padding: 8px 20px;
   font-family: 'Open Sans SemiBold';
   border-radius: 10px;
