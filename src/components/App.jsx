@@ -2,8 +2,6 @@ import { lazy } from 'react';
 import { Container, Main } from './App.styled';
 import ScrollToTop from "react-scroll-to-top";
 
-import {technologies} from '../technologies';
-
 const Background = lazy(() => import('./Background/Background'));
 const Header = lazy(() => import('./Header/Header'));
 const Hero = lazy(() => import('./Hero/Hero'));
