@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/wbvls-site/static/css/main.c23219b9.css",
-    "main.js": "/wbvls-site/static/js/main.cdeb65e3.js",
+    "main.js": "/wbvls-site/static/js/main.d52a9e2d.js",
     "static/js/657.b1958204.chunk.js": "/wbvls-site/static/js/657.b1958204.chunk.js",
     "static/js/998.3aa50ece.chunk.js": "/wbvls-site/static/js/998.3aa50ece.chunk.js",
     "static/js/270.32df7615.chunk.js": "/wbvls-site/static/js/270.32df7615.chunk.js",
     "static/js/461.e48532f0.chunk.js": "/wbvls-site/static/js/461.e48532f0.chunk.js",
     "static/js/922.b66b77d8.chunk.js": "/wbvls-site/static/js/922.b66b77d8.chunk.js",
-    "static/js/726.aa1bc213.chunk.js": "/wbvls-site/static/js/726.aa1bc213.chunk.js",
-    "static/js/556.8cbcccec.chunk.js": "/wbvls-site/static/js/556.8cbcccec.chunk.js",
+    "static/js/726.ab00d1aa.chunk.js": "/wbvls-site/static/js/726.ab00d1aa.chunk.js",
+    "static/js/521.7885a0ba.chunk.js": "/wbvls-site/static/js/521.7885a0ba.chunk.js",
+    "static/js/489.f90a6bd7.chunk.js": "/wbvls-site/static/js/489.f90a6bd7.chunk.js",
     "static/media/bg-dd-x2.png": "/wbvls-site/static/media/bg-dd-x2.4fdcf1fd202c2f47c600.png",
     "static/media/bg-td-x2.png": "/wbvls-site/static/media/bg-td-x2.7581665696876d869af0.png",
     "static/media/bg-dd-x1.png": "/wbvls-site/static/media/bg-dd-x1.219dc46f9054afad3f55.png",
@@ -61,19 +62,21 @@
     "static/media/css3_dd-1x.png": "/wbvls-site/static/media/css3_dd-1x.8b1f5e5438701dba63bb.png",
     "static/media/rest_dd-1x.png": "/wbvls-site/static/media/rest_dd-1x.268d78c139471bffe42c.png",
     "static/media/js_dd-1x.png": "/wbvls-site/static/media/js_dd-1x.ac9680506aea72cbcf5d.png",
+    "static/media/icons.svg": "/wbvls-site/static/media/icons.7c215e0c7d3d9f157f30d10659328767.svg",
     "index.html": "/wbvls-site/index.html",
     "main.c23219b9.css.map": "/wbvls-site/static/css/main.c23219b9.css.map",
-    "main.cdeb65e3.js.map": "/wbvls-site/static/js/main.cdeb65e3.js.map",
+    "main.d52a9e2d.js.map": "/wbvls-site/static/js/main.d52a9e2d.js.map",
     "657.b1958204.chunk.js.map": "/wbvls-site/static/js/657.b1958204.chunk.js.map",
     "998.3aa50ece.chunk.js.map": "/wbvls-site/static/js/998.3aa50ece.chunk.js.map",
     "270.32df7615.chunk.js.map": "/wbvls-site/static/js/270.32df7615.chunk.js.map",
     "461.e48532f0.chunk.js.map": "/wbvls-site/static/js/461.e48532f0.chunk.js.map",
     "922.b66b77d8.chunk.js.map": "/wbvls-site/static/js/922.b66b77d8.chunk.js.map",
-    "726.aa1bc213.chunk.js.map": "/wbvls-site/static/js/726.aa1bc213.chunk.js.map",
-    "556.8cbcccec.chunk.js.map": "/wbvls-site/static/js/556.8cbcccec.chunk.js.map"
+    "726.ab00d1aa.chunk.js.map": "/wbvls-site/static/js/726.ab00d1aa.chunk.js.map",
+    "521.7885a0ba.chunk.js.map": "/wbvls-site/static/js/521.7885a0ba.chunk.js.map",
+    "489.f90a6bd7.chunk.js.map": "/wbvls-site/static/js/489.f90a6bd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c23219b9.css",
-    "static/js/main.cdeb65e3.js"
+    "static/js/main.d52a9e2d.js"
   ]
 }
