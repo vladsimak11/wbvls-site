@@ -9,6 +9,7 @@ const About = lazy(() => import('./About/About'));
 const Technologies = lazy(() => import('./Technologies/Technologies'));
 const Projects = lazy(() => import('./Projects/Projects'));
 const Contacts = lazy(() => import('./Contacts/Contacts'));
+const Footer = lazy(() => import('./Footer/Footer'));
 
 export const App = () => {
   return (
@@ -22,6 +23,7 @@ export const App = () => {
         <Projects />
         <Contacts />
       </Main>
+      <Footer />
       <ScrollToTop smooth color="var(--second-color)"/>
     </Container>
   );

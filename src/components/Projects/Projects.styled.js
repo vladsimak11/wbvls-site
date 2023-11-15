@@ -28,7 +28,7 @@ export const ItemProjects = styled.li`
   flex-basis: calc((100% - 48px) / 3);
   background-color: var(--main-color);
 
-  border: 2px solid #1eafe9;;
+  border: 3px solid #1eafe9;
 
   &:hover {
     ${OverlayProjects} {
@@ -56,7 +56,7 @@ export const WrapperProjects = styled.div`
   align-items: center;
   justify-content: center;
   gap: 20px;
-  border-top: 2px solid #1eafe9;
+  border-top: 3px solid #1eafe9;
   padding-top: 15px;
   padding-bottom: 20px;; 
 `;
