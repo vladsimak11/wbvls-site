@@ -8,18 +8,26 @@ export const ListContacts = styled.ul`
 
 export const ItemContacts = styled.li`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
   flex-basis: calc((100% - 48px) / 3);
+  padding-bottom: 20px;
+  background-color: var(--main-color);
+  color: var(--bg-color);
 `;
 
 export const Icon = styled.svg`
   display: flex;
-  stroke: currentColor;;
-  fill: currentColor;;
+  stroke: var(--second-color);
+  fill: var(--second-color);
 `;
 
 export const TextContacts = styled.p`
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--second-color);
+  border-top: 2px solid var(--second-color);
   font-family: 'Open Sans SemiBold';
   font-size: 22px;
 `;
@@ -27,13 +35,27 @@ export const TextContacts = styled.p`
 export const LinkContacts = styled.a`
   font-family: 'Open Sans SemiBold';
   font-size: 22px;
-  border-bottom: 2px solid var(--main-color);
-
   transition: var(--main-transition);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--second-color);
+  border-top: 2px solid var(--second-color);
 
+  &::after {
+    content: "\u2192";
+    position: absolute;
+    padding-left: 15px;
+    transition: var(--main-transition);
+  }
+ 
   &:hover {
     color: var(--second-color);
-    border-color: var(--second-color);
+    &::after {
+      content: "\u27A0";
+      padding-left: 20px;
+      color: var(--second-color);
+    }
+
   }
 
 `;
