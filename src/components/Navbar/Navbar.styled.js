@@ -2,8 +2,12 @@ import styled from 'styled-components';
 import { HashLink } from 'react-router-hash-link';
 
 export const MainNav = styled.nav`
-  display: flex;
-  gap: 25px;
+  display: none;
+  
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    gap: 25px;
+  }
 `;
 
 export const Link = styled(HashLink)`

@@ -8,7 +8,7 @@ const Hero = () => {
         Effective modern ideas and solutions <br/>for
         your business
       </HeaderHero>
-      <Button name="Hire Me" link="mailto:svv.workmail11@gmail.com" primary />
+      <Button name="Hire Me" link="mailto:svv.workmail11@gmail.com" primary isMobile />
     </SectionHero>
   )
 }
