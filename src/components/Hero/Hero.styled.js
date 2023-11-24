@@ -6,16 +6,13 @@ import HeroMobileX2 from '../../images/hero/hero_md-2x.jpg';
 
 export const SectionHero = styled.section`
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 70px;
-  flex: 1;
+  margin: 0 auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  max-width: 320px;
+  max-width: 1280px;
   min-height: 540px;
   max-height: 540px;
 
@@ -32,9 +29,7 @@ export const SectionHero = styled.section`
   } 
 
   @media screen and (min-width: 1280px) {
-    max-width: 1280px;
     min-height: 600px;
-    gap: 50px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
@@ -46,6 +41,17 @@ export const SectionHero = styled.section`
       ),
       url(${HeroDesktopX2});
     }  
+  }
+`;
+
+export const BlockHero = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+
+  @media screen and (min-width: 1280px) {
+    gap: 50px;
   }
 `;
 

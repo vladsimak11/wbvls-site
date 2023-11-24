@@ -1,5 +1,5 @@
 import { ListTech, ItemTech } from './Technologies.styled';
-import { Section, Header } from '../App.styled';
+import { Container, Section, Header } from '../App.styled';
 
 import HTMLImgX1 from '../../images/technologies/html5_dd-1x.png';
 import HTMLImgX2 from '../../images/technologies/html5_dd-2x.png';
@@ -28,6 +28,7 @@ import WEBPACKImgX2 from '../../images/technologies/webpack_dd-2x.png';
 
 const Technologies = () => {
   return (
+  <Container>
     <Section>
       <Header id="technologies">
         Technologies
@@ -132,6 +133,7 @@ const Technologies = () => {
         </ItemTech>
       </ListTech>
     </Section>
+  </Container>  
   )
 }
 

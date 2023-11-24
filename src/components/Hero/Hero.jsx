@@ -1,14 +1,19 @@
 import Button from '../Button/Button';
-import { SectionHero, HeaderHero } from './Hero.styled';
+import { SectionHero, BlockHero, HeaderHero } from './Hero.styled';
+import { Container } from '../App.styled';
 
 const Hero = () => {
   return (
     <SectionHero id="home">
-      <HeaderHero>
-        Effective modern ideas and solutions <br/>for
-        your business
-      </HeaderHero>
-      <Button name="Hire Me" link="mailto:svv.workmail11@gmail.com" primary isMobile />
+      <Container>
+        <BlockHero>
+          <HeaderHero>
+            Effective modern ideas and solutions <br/>for
+            your business
+          </HeaderHero>
+          <Button name="Hire Me" link="mailto:svv.workmail11@gmail.com" primary isMobile />
+        </BlockHero>
+      </Container>
     </SectionHero>
   )
 }

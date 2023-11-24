@@ -1,4 +1,4 @@
-import { Section, Header } from '../App.styled';
+import { Container, Section, Header } from '../App.styled';
 import { ListProjects, ItemProjects, BlockProjects, OverlayProjects, OverlayTextProjects, WrapperProjects, HeaderProjects, ButtonsProjects } from './Projects.styled';
 import Button from '../Button/Button';
 
@@ -17,6 +17,7 @@ import StudioImgX2 from '../../images/projects/project-studio_dd-2x.jpg';
 
 const Projects = () => {
   return (
+  <Container>  
     <Section>
     <Header id="projects">
       Projects
@@ -184,6 +185,7 @@ const Projects = () => {
       </ItemProjects>
     </ListProjects>
     </Section>
+  </Container>  
   )
 }
 

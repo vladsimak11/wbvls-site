@@ -1,9 +1,10 @@
-import { Section, Header } from '../App.styled';
+import { Container, Section, Header } from '../App.styled';
 import { ListContacts, ItemContacts, Icon, TextContacts, LinkContacts } from './Contacts.styled';
 import icon from '../../images/icons.svg';
 
 const Contacts = () => {
   return (
+  <Container>
     <Section>
       <Header id="contacts">
         Contacts
@@ -96,6 +97,7 @@ const Contacts = () => {
         </ItemContacts>
       </ListContacts>
     </Section>
+  </Container>    
   )
 }
 

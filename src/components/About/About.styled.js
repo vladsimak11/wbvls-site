@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutBlock = styled.div`
   display: flex;
-  gap: 15px;
+  gap: 25px;
 `;
 
 export const AboutPicture = styled.div`

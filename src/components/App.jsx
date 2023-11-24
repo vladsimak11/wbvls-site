@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Container, Main } from './App.styled';
+import { Main } from './App.styled';
 import ScrollToTop from "react-scroll-to-top";
 
 const Background = lazy(() => import('./Background/Background'));
@@ -13,7 +13,7 @@ const Footer = lazy(() => import('./Footer/Footer'));
 
 export const App = () => {
   return (
-    <Container>
+    <>
       <Background />
       <Header />
       <Main>
@@ -25,6 +25,6 @@ export const App = () => {
       </Main>
       <Footer />
       <ScrollToTop smooth color="var(--second-color)"/>
-    </Container>
+    </>
   );
 };
