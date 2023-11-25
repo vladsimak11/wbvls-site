@@ -29,7 +29,7 @@ export const Link = styled(HashLink)`
     width: 0;
   }
 
-  &:hover:after { 
+  &:hover:after, &:active:after { 
     width: 100%; 
     left: 0; 
   }   

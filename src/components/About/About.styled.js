@@ -2,7 +2,12 @@ import styled from 'styled-components';
 
 export const AboutBlock = styled.div`
   display: flex;
+  flex-direction: column;
   gap: 25px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const AboutPicture = styled.div`
@@ -10,13 +15,20 @@ export const AboutPicture = styled.div`
 `;
 
 export const AboutInfo = styled.div`
-  width: 700px;
-  font-size: 22px;
+  width: 280px;
+  font-size: 18px;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    width: 700px;
+    align-items: center;
+    gap: 30px;
+    font-size: 22px;
+  }
 `;
 
 export const AboutText = styled.div`

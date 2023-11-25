@@ -29,9 +29,25 @@ export const Header = styled.h2`
   text-align: center;
   font-size: 36px;
   line-height: 1.2;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const Section = styled.section`
-  margin-top: 80px;
+  margin-top: 50px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 80px;
+  }
 `;
+
+// export const Hidden = styled.span`
+//   display: none;
+
+//   @media screen and (min-width: 768px) {
+//     display: block;
+//   }
+// `;

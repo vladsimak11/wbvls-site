@@ -35,14 +35,14 @@ const About = () => {
             </AboutText>
 
             <AboutText>
-              If you agree that I would be a good fit for your company. I'm ready to chatting with you or complete a test task. 
+              If you agree that I would be a good fit for your company or project. I'm ready to chatting with you. 
             </AboutText>
 
             <AboutText>
               <AboutSpan>Thank you for your time and attention!</AboutSpan>
             </AboutText>
 
-            <Button name="Certificate full stack developer" link="https://drive.google.com/file/d/1VPS_BAn2dMrqSxBjQZ74p5z83aDMUug0/view?usp=drive_link" primary diploma/>
+            <Button name="My developer certificate" link="https://drive.google.com/file/d/1VPS_BAn2dMrqSxBjQZ74p5z83aDMUug0/view?usp=drive_link" primary diploma isMobile />
           </AboutInfo>
         </AboutBlock>
       </Section>
