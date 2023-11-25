@@ -1,8 +1,11 @@
 import styled from 'styled-components';
-import HeroDesktopX1 from '../../images/hero/hero_dd-1x.jpg';
-import HeroDesktopX2 from '../../images/hero/hero_dd-2x.jpg';
-import HeroMobileX1 from '../../images/hero/hero_md-1x.jpg';
-import HeroMobileX2 from '../../images/hero/hero_md-2x.jpg';
+
+import Hero320X1 from '../../images/hero/hero_320-1x.jpg';
+import Hero640X2 from '../../images/hero/hero_640-2x.jpg';
+import Hero480X1 from '../../images/hero/hero_480-1x.jpg';
+import Hero960X2 from '../../images/hero/hero_960-2x.jpg';
+import Hero1280X1 from '../../images/hero/hero_1280-1x.jpg';
+import Hero2560X2 from '../../images/hero/hero_2560-2x.jpg';
 
 export const SectionHero = styled.section`
   display: flex;
@@ -12,34 +15,50 @@ export const SectionHero = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
 
-  max-width: 1280px;
+  max-width: 320px;
   min-height: 540px;
-  max-height: 540px;
 
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.8)
-  ), url(${HeroMobileX1});
+  ), url(${Hero320X1});
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url(${HeroMobileX2});
+    url(${Hero640X2});
   } 
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
     min-height: 600px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
-    ), url(${HeroDesktopX1});
+    ), url(${Hero480X1});
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(
         rgba(0, 0, 0, 0.8),
         rgba(0, 0, 0, 0.8)
       ),
-      url(${HeroDesktopX2});
+      url(${Hero960X2});
+    }  
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+    min-height: 600px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ), url(${Hero1280X1});
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(${Hero2560X2});
     }  
   }
 `;
@@ -63,6 +82,11 @@ export const HeaderHero = styled.h1`
   font-size: 26px;
   line-height: calc(42 / 26);
   text-transform: uppercase;
+
+  @media screen and (min-width: 480px) {
+    font-size: 36px;
+    line-height: calc(52 / 36);
+  }
 
   @media screen and (min-width: 1280px) {
     font-size: 44px;

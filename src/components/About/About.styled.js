@@ -23,6 +23,11 @@ export const AboutInfo = styled.div`
   justify-content: center;
   gap: 20px;
 
+  @media screen and (min-width: 480px) {
+    width: 440px;
+    font-size: 20px;
+  }
+
   @media screen and (min-width: 768px) {
     width: 700px;
     align-items: center;

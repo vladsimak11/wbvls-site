@@ -30,7 +30,12 @@ export const Menu = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  padding: 70px 40px 25px 40px; 
+  padding: 70px 40px 70px 40px;
+
+  @media screen and (min-width: 480px) {
+    padding: 70px;
+  } 
+
   background-color: var(--main-color);
   transform: translateX(100%);
   transition: transform .2s ease-out;
