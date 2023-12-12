@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/wbvls-site/static/css/main.c23219b9.css",
-    "main.js": "/wbvls-site/static/js/main.cd3e178f.js",
+    "main.js": "/wbvls-site/static/js/main.c5f69dc0.js",
     "static/js/657.b1958204.chunk.js": "/wbvls-site/static/js/657.b1958204.chunk.js",
     "static/js/205.a595f193.chunk.js": "/wbvls-site/static/js/205.a595f193.chunk.js",
-    "static/js/964.f22920f1.chunk.js": "/wbvls-site/static/js/964.f22920f1.chunk.js",
-    "static/js/461.8043a85b.chunk.js": "/wbvls-site/static/js/461.8043a85b.chunk.js",
+    "static/js/964.797c35e1.chunk.js": "/wbvls-site/static/js/964.797c35e1.chunk.js",
+    "static/js/461.83e6bac5.chunk.js": "/wbvls-site/static/js/461.83e6bac5.chunk.js",
     "static/js/922.3b5e4696.chunk.js": "/wbvls-site/static/js/922.3b5e4696.chunk.js",
     "static/js/726.5a5d9de0.chunk.js": "/wbvls-site/static/js/726.5a5d9de0.chunk.js",
     "static/js/853.0c12556f.chunk.js": "/wbvls-site/static/js/853.0c12556f.chunk.js",
@@ -69,11 +69,11 @@
     "static/media/icons.svg": "/wbvls-site/static/media/icons.61b3300e005f72d7f796ce30dabfb4d0.svg",
     "index.html": "/wbvls-site/index.html",
     "main.c23219b9.css.map": "/wbvls-site/static/css/main.c23219b9.css.map",
-    "main.cd3e178f.js.map": "/wbvls-site/static/js/main.cd3e178f.js.map",
+    "main.c5f69dc0.js.map": "/wbvls-site/static/js/main.c5f69dc0.js.map",
     "657.b1958204.chunk.js.map": "/wbvls-site/static/js/657.b1958204.chunk.js.map",
     "205.a595f193.chunk.js.map": "/wbvls-site/static/js/205.a595f193.chunk.js.map",
-    "964.f22920f1.chunk.js.map": "/wbvls-site/static/js/964.f22920f1.chunk.js.map",
-    "461.8043a85b.chunk.js.map": "/wbvls-site/static/js/461.8043a85b.chunk.js.map",
+    "964.797c35e1.chunk.js.map": "/wbvls-site/static/js/964.797c35e1.chunk.js.map",
+    "461.83e6bac5.chunk.js.map": "/wbvls-site/static/js/461.83e6bac5.chunk.js.map",
     "922.3b5e4696.chunk.js.map": "/wbvls-site/static/js/922.3b5e4696.chunk.js.map",
     "726.5a5d9de0.chunk.js.map": "/wbvls-site/static/js/726.5a5d9de0.chunk.js.map",
     "853.0c12556f.chunk.js.map": "/wbvls-site/static/js/853.0c12556f.chunk.js.map",
@@ -81,6 +81,6 @@
   },
   "entrypoints": [
     "static/css/main.c23219b9.css",
-    "static/js/main.cd3e178f.js"
+    "static/js/main.c5f69dc0.js"
   ]
 }
