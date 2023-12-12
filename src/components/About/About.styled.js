@@ -15,13 +15,13 @@ export const AboutPicture = styled.div`
 `;
 
 export const AboutInfo = styled.div`
-  width: 280px;
-  font-size: 18px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
+  font-size: 18px;
+  text-align: center;
 
   @media screen and (min-width: 480px) {
     width: 440px;
@@ -30,9 +30,9 @@ export const AboutInfo = styled.div`
 
   @media screen and (min-width: 768px) {
     width: 700px;
-    align-items: center;
     gap: 30px;
     font-size: 22px;
+    text-align: start;
   }
 `;
 

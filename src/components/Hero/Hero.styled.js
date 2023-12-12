@@ -15,7 +15,7 @@ export const SectionHero = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
 
-  max-width: 320px;
+  min-width: 320px;
   min-height: 540px;
 
   background-image: linear-gradient(
