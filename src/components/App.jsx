@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 import { Main } from './App.styled';
 import ScrollToTop from "react-scroll-to-top";
+import { useEffect, useState } from "react";
 
 const Background = lazy(() => import('./Background/Background'));
 const Header = lazy(() => import('./Header/Header'));

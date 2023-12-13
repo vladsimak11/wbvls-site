@@ -2,8 +2,13 @@ import styled from 'styled-components';
 
 export const ListContacts = styled.ul`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 `;
 
 export const ItemContacts = styled.li`
