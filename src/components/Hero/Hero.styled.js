@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 import Hero320X1 from '../../images/hero/hero_320-1x.jpg';
 import Hero640X2 from '../../images/hero/hero_640-2x.jpg';
+import Hero350X1 from '../../images/hero/hero_350-1x.jpg';
+import Hero700X2 from '../../images/hero/hero_700-2x.jpg';
 import Hero400X1 from '../../images/hero/hero_400-1x.jpg';
 import Hero800X2 from '../../images/hero/hero_800-2x.jpg';
 import Hero480X1 from '../../images/hero/hero_480-1x.jpg';
@@ -32,8 +34,22 @@ export const SectionHero = styled.section`
     url(${Hero640X2});
   } 
 
+  @media screen and (min-width: 350px) {
+    min-height: 600px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ), url(${Hero350X1});
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(${Hero700X2});
+    }  
+  }
+
   @media screen and (min-width: 400px) {
-    max-width: 480px;
     min-height: 600px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
@@ -49,7 +65,6 @@ export const SectionHero = styled.section`
   }
 
   @media screen and (min-width: 480px) {
-    max-width: 480px;
     min-height: 600px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.8),
