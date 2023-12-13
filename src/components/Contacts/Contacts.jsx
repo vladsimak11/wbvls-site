@@ -56,7 +56,7 @@ const Contacts = () => {
         <ItemContacts>
           <div>
             <Icon width={64} >
-              <use href={`${icon}#icon-envelop`}></use>
+              <use href={`${icon}#icon-gmail`}></use>
             </Icon>
           </div>
           
@@ -67,7 +67,6 @@ const Contacts = () => {
           </div>
         </ItemContacts>
 
- 
         <ItemContacts>
           <div>
             <Icon width={64} >

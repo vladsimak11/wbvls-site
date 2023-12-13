@@ -44,10 +44,10 @@ export const Section = styled.section`
   }
 `;
 
-// export const Hidden = styled.span`
+// export const HiddenSpan = styled.span`
 //   display: none;
 
-//   @media screen and (min-width: 768px) {
+//   @media screen and (min-width: 480px) {
 //     display: block;
 //   }
 // `;
