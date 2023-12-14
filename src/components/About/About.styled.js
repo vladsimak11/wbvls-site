@@ -5,13 +5,19 @@ export const AboutBlock = styled.div`
   flex-direction: column;
   gap: 25px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     flex-direction: row;
   }
 `;
 
-export const AboutPicture = styled.div`
+export const AboutPicture = styled.img`
   border: 5px solid var(--main-color);
+
+  @media screen and (max-width: 1280px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 `;
 
 export const AboutInfo = styled.div`
@@ -29,6 +35,10 @@ export const AboutInfo = styled.div`
   }
 
   @media screen and (min-width: 768px) {
+    width: 704px;
+  }
+
+  @media screen and (min-width: 1280px) {
     width: 700px;
     gap: 30px;
     font-size: 22px;

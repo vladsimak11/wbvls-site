@@ -12,15 +12,15 @@ const About = () => {
           About Me
         </Header>
         <AboutBlock>
-          <AboutPicture>
-            <picture>
-            <source  
-              media="(min-width: 1280px)" 
-              srcset={`${AboutImgX1} 1x, ${AboutImgX2} 2x`}
-            />
-            <img src={AboutImgX1} alt="Simak Vladyslav" width="500" />
-            </picture>
-          </AboutPicture>
+
+          <AboutPicture
+            srcset={`${AboutImgX1} 500w, ${AboutImgX2} 1000w`}
+            sizes="(min-width: 768px) 500px, 100vw" 
+            src={AboutImgX1} 
+            width="500" 
+            alt="Simak Vladyslav" 
+          />
+
           <AboutInfo>
             <AboutText>
               Hello! <AboutSpan>My name is Vladyslav</AboutSpan>. I am a <AboutSpan>Junior Full Stack Developer</AboutSpan>. And I am actively developing in this direction. In addition to this, I have experience with implementing both individual and team projects.

@@ -15,6 +15,10 @@ export const ItemProjects = styled.li`
   border-radius: 10px;
   padding: 40px 25px 25px 25px;
 
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 48px) / 2);
+  }
+
   @media screen and (min-width: 1280px) {
     flex-basis: calc((100% - 48px) / 3);
     height: 500px;
