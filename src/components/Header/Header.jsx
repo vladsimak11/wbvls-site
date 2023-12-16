@@ -5,13 +5,17 @@ import Button from '../Button/Button';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import {Container} from '../App.styled';
 
+import { useScreenDetector } from "../useScreenDetector/useScreenDetector";
+
 const Header = () => {
+  const { isTablet } = useScreenDetector();
+
   return (
     <Container>
       <MainHeader>
         <Logo />
         <Navigation  />
-        <Button name = "Download CV" link="https://drive.google.com/file/d/1lGhNoAITx_fIuMju3vPiFf-_ZnE63zrZ/view?usp=drive_link" />
+        {isTablet && <Button name = "Download CV" link="https://drive.google.com/file/d/1lGhNoAITx_fIuMju3vPiFf-_ZnE63zrZ/view?usp=drive_link" />}
         <BurgerMenu />
       </MainHeader>
     </Container>  

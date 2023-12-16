@@ -47,27 +47,19 @@ export const LinkContacts = styled.a`
   border-top: 2px solid var(--second-color);
 
   &::after {
-    content: "";
+    content: "\u2192";
     position: absolute;
     padding-left: 15px;
     transition: var(--main-transition);
-
-    @media screen and (min-width: 480px) {
-      content: "\u2192";
-    }
   }
- 
+
   &:hover, &:active {
     color: var(--second-color);
 
     &::after {
-      content: "";
+      content: "\u27A0";
       padding-left: 20px;
       color: var(--second-color);
-
-      @media screen and (min-width: 480px) {
-        content: "\u27A0";
-      }
     }
 
   }

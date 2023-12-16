@@ -10,8 +10,7 @@ const stylesBtnActive = {
 };
 
 export const LinkContact = styled(Link)`
-  display: ${props => props.isMobile ? "flex" : "none"};
-  gap: 25px;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px; 
@@ -28,10 +27,6 @@ export const LinkContact = styled(Link)`
     background: ${props => props.primary ? stylesBtnActive.darkGreen : stylesBtnActive.green };
     border-color: ${props => props.primary ? stylesBtnActive.darkGreen : stylesBtnActive.green };
     color: ${props => props.colorText ? stylesBtnActive.white : stylesBtnActive.white};
-  }
-
-  @media screen and (min-width: 1280px) {
-    display: flex;
   }
 `;
 

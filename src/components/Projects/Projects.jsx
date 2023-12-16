@@ -12,8 +12,12 @@ import Button from '../Button/Button';
 
 import PetImgX1 from '../../images/projects/project-pet_dd-1x.jpg';
 import PetImgX2 from '../../images/projects/project-pet_dd-2x.jpg';
+import PetTdImgX1 from '../../images/projects/project-pet_td-1x.jpg';
+import PetTdImgX2 from '../../images/projects/project-pet_td-2x.jpg';
 import NewsImgX1 from '../../images/projects/project-news_dd-1x.jpg';
 import NewsImgX2 from '../../images/projects/project-news_dd-2x.jpg';
+import NewsTdImgX1 from '../../images/projects/project-news_td-1x.jpg';
+import NewsTdImgX2 from '../../images/projects/project-news_td-2x.jpg';
 import BookImgX1 from '../../images/projects/project-book_dd-1x.jpg';
 import BookImgX2 from '../../images/projects/project-book_dd-2x.jpg';
 import IceImgX1 from '../../images/projects/project-ice_dd-1x.jpg';
@@ -40,8 +44,8 @@ const Projects = () => {
             </TextProjects>
 
             <ImgProjects
-              srcset={`${PetImgX1} 350w, ${PetImgX2} 700w`}
-              sizes="(min-width: 1280px) 350px, 100vw"
+              srcset={`${PetTdImgX1} 300w, ${PetImgX1} 350w, ${PetTdImgX2} 600w, ${PetImgX2} 700w`}
+              sizes="(min-width: 1280px) 350px, (min-width: 768px) 300px, (min-width: 320px) 350px, 100vw"
               src={PetImgX1}
               width="350"
               alt="Your Pet"
@@ -74,8 +78,8 @@ const Projects = () => {
             </TextProjects>
 
             <ImgProjects
-              srcset={`${NewsImgX1} 350w, ${NewsImgX2} 700w`}
-              sizes="(min-width: 1280px) 350px, 100vw"
+              srcset={`${NewsTdImgX1} 300w, ${NewsImgX1} 350w, ${NewsTdImgX2} 600w, ${NewsImgX2} 700w`}
+              sizes="(min-width: 1280px) 350px, (min-width: 768px) 300px, (min-width: 320px) 350px, 100vw"
               src={NewsImgX1}
               width="News"
               alt="Your Pet"

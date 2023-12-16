@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { BurgerMenuContainer, BurgerMenuBtn, Menu, Icon,  MainNav, Link } from './BurgerMenu.styled';
 import Button from '../Button/Button';
 import icon from '../../images/icons.svg';
+import { useScreenDetector } from "../useScreenDetector/useScreenDetector";
 
 const BurgerMenu = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const { isMobile } = useScreenDetector();
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -46,7 +48,7 @@ const BurgerMenu = () => {
             </Link>
           </MainNav>
 
-          <Button name = "Download CV" link="https://drive.google.com/file/d/1lGhNoAITx_fIuMju3vPiFf-_ZnE63zrZ/view?usp=drive_link" primary diploma isMobile />
+          {isMobile && <Button name = "Download CV" link="https://drive.google.com/file/d/1lGhNoAITx_fIuMju3vPiFf-_ZnE63zrZ/view?usp=drive_link" primary diploma />}
         </Menu>
       )}
     </BurgerMenuContainer>

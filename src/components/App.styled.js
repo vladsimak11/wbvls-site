@@ -39,7 +39,7 @@ export const Header = styled.h2`
 export const Section = styled.section`
   margin-top: 50px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     margin-top: 80px;
   }
 `;

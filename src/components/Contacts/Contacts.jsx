@@ -1,8 +1,11 @@
 import { Container, Section, Header } from '../App.styled';
 import { ListContacts, ItemContacts, Icon, TextContacts, LinkContacts } from './Contacts.styled';
 import icon from '../../images/icons.svg';
+import { useScreenDetector } from "../useScreenDetector/useScreenDetector";
 
 const Contacts = () => {
+  const { isDesktop } = useScreenDetector();
+
   return (
   <Container>
     <Section>
@@ -33,7 +36,7 @@ const Contacts = () => {
           
           <div>
             <LinkContacts href="tel:+380637283120" target="_blank">
-              +380637283120
+              {isDesktop ? '+380637283120' : 'Phone'}
             </LinkContacts>
           </div>
         </ItemContacts>
@@ -62,7 +65,7 @@ const Contacts = () => {
           
           <div>
             <LinkContacts href="mailto:svv.workmail11@gmail.com" target="_blank">
-              svv.workmail11@gmail.com
+              {!isDesktop ? 'Email' : 'svv.workmail11@gmail.com'} 
             </LinkContacts>
           </div>
         </ItemContacts>

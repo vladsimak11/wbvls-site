@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ListProjects = styled.ul`
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
@@ -63,7 +64,7 @@ export const ButtonsProjects = styled.div`
   gap: 20px;
   margin-top: 30px;
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 1280px) {
     flex-direction: row;
     Justify-content: center;
   }
