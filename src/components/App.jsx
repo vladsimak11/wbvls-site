@@ -1,4 +1,4 @@
-import { lazy } from 'react';
+import { lazy, Suspense } from 'react';
 import { Main } from './App.styled';
 import ScrollToTop from 'react-scroll-to-top';
 
@@ -15,15 +15,17 @@ export const App = () => {
   return (
     <>
       <Background />
-      <Header />
-      <Main>
-        <Hero />
-        <About />
-        <Technologies />
-        <Projects />
-        <Contacts />
-      </Main>
-      <Footer />
+        <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+          <Main>
+            <Hero />
+            <About />
+            <Technologies />
+            <Projects />
+            <Contacts />
+          </Main>
+        <Footer />
+        </Suspense>
       <ScrollToTop smooth color="var(--second-color)" />
     </>
   );
