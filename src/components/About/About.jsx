@@ -18,7 +18,7 @@ const About = () => {
             sizes="(min-width: 768px) 500px, 100vw" 
             src={AboutImgX1} 
             width="500" 
-            alt="Simak Vladyslav" 
+            alt="Simak Vladyslav"
           />
 
           <AboutInfo>
