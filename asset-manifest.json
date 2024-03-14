@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wbvls-site/static/css/main.c23219b9.css",
-    "main.js": "/wbvls-site/static/js/main.3d9d795d.js",
+    "main.js": "/wbvls-site/static/js/main.7a93e449.js",
     "static/js/657.b1958204.chunk.js": "/wbvls-site/static/js/657.b1958204.chunk.js",
     "static/js/205.629c5a97.chunk.js": "/wbvls-site/static/js/205.629c5a97.chunk.js",
     "static/js/618.da142ab7.chunk.js": "/wbvls-site/static/js/618.da142ab7.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/922.3cba9942.chunk.js": "/wbvls-site/static/js/922.3cba9942.chunk.js",
     "static/js/303.90a2f80c.chunk.js": "/wbvls-site/static/js/303.90a2f80c.chunk.js",
     "static/js/853.bdbab19e.chunk.js": "/wbvls-site/static/js/853.bdbab19e.chunk.js",
-    "static/js/489.64f8490f.chunk.js": "/wbvls-site/static/js/489.64f8490f.chunk.js",
+    "static/js/489.0b331cb2.chunk.js": "/wbvls-site/static/js/489.0b331cb2.chunk.js",
     "static/media/bg-dd-x2.png": "/wbvls-site/static/media/bg-dd-x2.4fdcf1fd202c2f47c600.png",
     "static/media/bg-td-x2.png": "/wbvls-site/static/media/bg-td-x2.7581665696876d869af0.png",
     "static/media/bg-dd-x1.png": "/wbvls-site/static/media/bg-dd-x1.219dc46f9054afad3f55.png",
@@ -79,7 +79,7 @@
     "static/media/icons.svg": "/wbvls-site/static/media/icons.acfba7fdaac21ce8b7b079eb20d0196f.svg",
     "index.html": "/wbvls-site/index.html",
     "main.c23219b9.css.map": "/wbvls-site/static/css/main.c23219b9.css.map",
-    "main.3d9d795d.js.map": "/wbvls-site/static/js/main.3d9d795d.js.map",
+    "main.7a93e449.js.map": "/wbvls-site/static/js/main.7a93e449.js.map",
     "657.b1958204.chunk.js.map": "/wbvls-site/static/js/657.b1958204.chunk.js.map",
     "205.629c5a97.chunk.js.map": "/wbvls-site/static/js/205.629c5a97.chunk.js.map",
     "618.da142ab7.chunk.js.map": "/wbvls-site/static/js/618.da142ab7.chunk.js.map",
@@ -87,10 +87,10 @@
     "922.3cba9942.chunk.js.map": "/wbvls-site/static/js/922.3cba9942.chunk.js.map",
     "303.90a2f80c.chunk.js.map": "/wbvls-site/static/js/303.90a2f80c.chunk.js.map",
     "853.bdbab19e.chunk.js.map": "/wbvls-site/static/js/853.bdbab19e.chunk.js.map",
-    "489.64f8490f.chunk.js.map": "/wbvls-site/static/js/489.64f8490f.chunk.js.map"
+    "489.0b331cb2.chunk.js.map": "/wbvls-site/static/js/489.0b331cb2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c23219b9.css",
-    "static/js/main.3d9d795d.js"
+    "static/js/main.7a93e449.js"
   ]
 }
