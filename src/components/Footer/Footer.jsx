@@ -6,7 +6,7 @@ const Footer = () => {
   <Container> 
     <MainFooter>
       <TextFooter>
-        &copy; 2022-2023 Webvelsi. <br />
+        &copy; 2022-2024 Webvelsi. <br />
         All rights reserved.
       </TextFooter>
     </MainFooter>
